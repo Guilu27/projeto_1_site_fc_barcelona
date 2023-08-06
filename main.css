@@ -29,6 +29,10 @@ header nav li a {
   margin-left: 16px;
 }
 
+header nav li a:hover {
+  text-decoration: underline;
+}
+
 header,
 .container,
 footer {
