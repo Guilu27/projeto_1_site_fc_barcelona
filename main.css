@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181733;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  color: white;
+  padding: 16px;
+  display: flex;
+}
+
+header img {
+  height: 80px;
+}
+
+header nav li {
+  display: inline;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 16px;
+}
+
+header,
+.container,
+footer {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header,
+.gradient,
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 23, 51, 1) 0%,
+    rgba(205, 18, 46, 0.5) 50%,
+    rgba(24, 23, 51, 1) 100%
+  );
+
+  color: white;
+}
+
+.gradient img {
+  margin-left: 24px;
+  box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.2);
+}
+
+.white {
+  background-color: white;
+  color: #181733;
+}
+
+.white img {
+  margin-right: 24px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+header .container,
+main .container section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 8px;
+}
+
+main .container section {
+  padding: 16px;
+}
+
+main .container img {
+  width: 400px;
+  height: 500px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+}
+
+main .container h2 {
+  margin-bottom: 16px;
+}
+
+main .container p {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+#newsletter {
+  display: block;
+}
+
+main .container .newsletter-text {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+main .container .newsletter-text h2 {
+  margin-bottom: 8px;
+}
+main .container .newsletter-text p {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+form {
+  text-align: center;
+}
+
+form input,
+form button {
+  display: block;
+  margin: 0 auto 8px auto;
+
+  width: 300px;
+  height: 40px;
+}
+
+form button {
+  cursor: pointer;
+  background-color: #181733;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 23, 51, 1),
+    rgba(205, 18, 46, 0.8)
+  );
+}
+
+form input:focus {
+  outline: #181733;
+}
+
+footer {
+  padding: 8px;
+  text-align: center;
+}
